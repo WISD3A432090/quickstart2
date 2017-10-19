@@ -10,5 +10,10 @@ class TaskController extends Controller
     {
         $this->middleware('auth');
     }
+    public function index(Request $request)
+    {
+        return view('tasks.index');
+    }
+
 
 }
