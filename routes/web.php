@@ -24,3 +24,5 @@ Route::delete('/task/{task}', 'TaskController@destroy');
 Route::get('/home', function () {
     return view('home');
 });
+
+Route::delete('/task/{task}', 'TaskController@destroy');
